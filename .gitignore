@@ -1,1 +1,41 @@
 vendor
+
+# Binaries
+*.exe
+*.out
+*.o
+*.so
+*.a
+*.dll
+
+# Logs and debugging files
+*.log
+*.trace
+*.prof
+
+# Go build artifacts
+/bin/
+/pkg/
+/build/
+**/*.test
+
+
+# Go modules cache
+/go/pkg/mod/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage.out
+
+# Docker & CI/CD related
+.dockerignore
+.env

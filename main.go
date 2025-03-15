@@ -9,7 +9,7 @@ import (
 	"github.com/twmb/franz-go/pkg/kgo"
 )
 
-var brokers = []string{"localhost:9092", "localhost:9093", "localhost:9094"}
+var brokers = []string{"localhost:29092", "localhost:29093", "localhost:29094"}
 
 var adminClient *kadm.Client
 
@@ -20,7 +20,7 @@ func getAdminClient() {
 	if err != nil {
 		panic(err)
 	}
-	defer client.Close()
+	// defer client.Close()
 
 	adminClient = kadm.NewClient(client)
 }
