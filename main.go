@@ -46,7 +46,7 @@ func getAdminClient() *kgo.Client {
 }
 
 func main() {
-	fmt.Println("starting.......")
+	fmt.Println("running server.......")
 
 	// configs
 	// retention time
